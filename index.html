@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="_Isabel_Santos_Castro">
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+    <title>Expense Control</title>
+</head>
+
+<body>
+    
+    <main>
+        
+        <section class="secaoAddInfo">
+            <h1>Control Expense</h1>
+            <p id="intro"></p>
+                <!--add credit-->
+                    <div class="formAddBudget">
+                        <h2>Credit origin</h2>
+                        <input type="text" class="formAddBudgetOrigin">
+                        <h2>Credit value (€)</h2>
+                        <input type="number" class="formAddBudgetValue">
+                        <button>Add credit</button>
+                    </div>
+        
+                    <div class="containerBudget">
+                        <div class="containerBudgetHeader">
+                            <p class="titleBudget">Credit origin</p>
+                            <p>Credit value (€)</p>
+        
+                        </div>
+                    <div class="formAddBudget">
+                        
+                    </div>
+                <ul class="containerBudgetList">
+
+                </ul>
+                <!--add expense-->
+                <div class="formAddExpense">
+                    <h2>Expense Origin</h2>
+                    <input type="text" class="formAddExpenseOrigin">
+                    <h2>Expense Value (€) </h2>
+                    <input type="number" class="formAddExpenseValue">
+                    <button>Add Expense</button>
+                </div>
+   
+                <div class="containerExpense">
+                    <div class="containerExpenseHeader">
+                        <p class="titleExpense">Expense Origin</p>
+                        <p>Expense value (€)</p>
+    
+                    </div>
+                    <ul class="containerExpenseList">
+
+                    </ul>
+            </div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="resultsBudget">
+                <h3>Credit</h3>
+                <p>+ €0</p>
+            </div>
+            <div class="resultsExpense">
+                <h3>Expense</h3>
+                <p>- €0</p>
+
+            </div>
+            <div class="resultsBalance">
+                <h3>Balance</h3>
+                <p>€ 0</p>
+            </div>
+        </section>
+
+    </main>
+   
+    <script src="./assets/script/index.js"></script>
+</body>
+
+</html>

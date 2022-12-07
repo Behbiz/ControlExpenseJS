@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body {
+    background-color: #ffc107;
+    font-family: 'Inter';
+}
+h1{
+    text-align: center;
+}
+main {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section {
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.secaoAddInfo {
+    background-color: #FFF;
+    width: 700px;
+}
+
+.secaoAddInfo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formAddBudget h2 {
+    font-weight: bold;
+}
+
+.formAddBudget input {
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 3px 15px -4px #575757;
+    outline: none;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.formAddBudget button {
+    background-color: blueviolet;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 3px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.formAddExpense h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.formAddBudget h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formAddExpense input {
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 3px 15px -4px #575757;
+    outline: none;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.formAddExpense button {
+    background-color: blueviolet;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 3px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.containerBudgetHeader {
+    display: flex;
+    margin: 40px 0;
+}
+
+.containerBudgetHeader p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.titleBudget {
+    margin-right: 150px;
+}
+
+.containerBudgetList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecfbef;
+    color: #78ce71;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.containerExpenseHeader {
+    display: flex;
+    margin: 40px 0;
+}
+
+.containerExpenseHeader p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.titleExpense {
+    margin-right: 150px;
+}
+
+.containerExpenseList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecfbef;
+    color: #ce7171;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.results {
+    background-color: #FFF;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.results div h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.results div p {
+    font-size: 28px;
+}
+
+.results div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resultsBudget p {
+    color: #78ce71
+}
+
+.resultsExpense p {
+    color: #e44f3c;
+}
+
+#intro {
+    font-size: 30px;
+    line-height: 15px;
+}
+
+.resultsBalance p {
+    color: cornflowerblue;
+}
+
+button {
+    cursor: pointer;
+}
